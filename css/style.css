@@ -9,26 +9,27 @@
 }
 
 .mdl-layout__content {
-  padding-left: 15pt;
-  padding-right: 15pt;
-  padding-top: 15pt;
+  padding-left: 20pt;
+  padding-right: 20pt;
+  padding-top: 20pt;
 }
 
 .mdl-textfield__error {
-  color: rgb(243 2 243);
+  color: rgb(60, 25, 101);
 }
 
 .page-content {
   color: rgb(0, 0, 0);
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.25rem;
+  font-size: 2.00rem;
 }
 
 body {
-  background-color: rgb(195, 167, 238);
+  background-color: #b5d6ff;
 }
 
 img {
+  height: auto;
+  width: 450px;
   float: right;
-  height: 200px;
 }
