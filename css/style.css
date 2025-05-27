@@ -3,33 +3,42 @@
 * Created on: Sep 2020
 * This file contains the CSS for index.html
 */
-.mdl-layout__header-row {
-  justify-content: center;
-  padding: 0;
-}
 
 .mdl-layout__content {
-  padding-left: 20pt;
-  padding-right: 20pt;
-  padding-top: 20pt;
+  padding-left: 15pt;
+  padding-right: 15pt;
+  padding-top: 15pt;
 }
 
-.mdl-textfield__error {
-  color: rgb(60, 25, 101);
+/* Due to error in MDL : https://github.com/google/material-design-lite/issues/5281
+*/
+.mdl-ripple {
+  background: #000;
+  opacity: 0.001;
+}
+
+body {
+  background-color: rgb(167, 245, 73);
 }
 
 .page-content {
   color: rgb(0, 0, 0);
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 2.00rem;
-}
-
-body {
-  background-color: #b5d6ff;
+  font-size: 80px;
+  padding-top: 5pt;
+  text-align: center;
 }
 
 img {
-  height: auto;
-  width: 450px;
-  float: right;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  height: 350px;
+}
+
+#result {
+  color: rgb(0, 0, 0);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  text-align: center;
 }
